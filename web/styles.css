@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height:10vh;
+    align-items: center;
+    background-color:coral;
+}
+
+main{
+    background-color: rgb(29, 166, 240);
+    height:fit-content;
+    color:white;
+    padding:10px;
+}
+
+h2{
+    padding:25px 30px;
+}
+
+.movies-container{
+    width:95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    
+}
+
+.movie{
+    width:300px;
+    margin:20px 15px;
+    height:350px;
+    border:3px solid green;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.load-more{
+    border:3px solid green;
+    padding:10px 15px;
+    cursor:pointer;
+    
+}
