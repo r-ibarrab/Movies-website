@@ -1,4 +1,4 @@
-# Movies Page
+# Movies website
 
 Full movies page created with an express server, vainilla javascript and html.
 
